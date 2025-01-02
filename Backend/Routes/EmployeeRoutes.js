@@ -4,7 +4,7 @@ const { createEmployee,
     deleteEmployeeById,
     updateEmployeeById
 } = require('../controllers/EmployeeController');
-const { cloudinaryFileUploader } = require('../MiddleWares/FileUploader');
+const { cloudinaryFileUploader } = require('../middlewares/FileUploader');
  
 
 const router = require('express').Router();
