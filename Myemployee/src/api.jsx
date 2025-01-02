@@ -1,5 +1,4 @@
-const BASE_URL = import.meta.env.VITE_BACKEND_URL;
-
+const BASE_URL = process.env.REACT_APP_BACKEND_URL;
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
